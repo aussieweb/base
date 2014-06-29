@@ -1,0 +1,86 @@
+/* =============================================================
+	THE GRID
+	Structure and layout.
+ * ============================================================= */
+
+/*  Mobile-first. Single-column layout by default
+ *  Container sets the maximum page width. Adjust as needed. */
+.container {
+	max-width: $container-max;
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*  Still mostly single-column.
+ *  Option to activate grid on small screens.
+ *  Two-column layout for .grid-img. */
+
+	.row {
+		margin-left: $grid-margins * -1;
+		margin-right: $grid-margins * -1;
+	}
+
+	.grid-fourth,
+	.grid-third,
+	.grid-half,
+	.grid-two-thirds,
+	.grid-three-fourths,
+	.grid-full,
+	.grid-img {
+		float: left;
+		width: 100%;
+		padding-left: $grid-margins;
+		padding-right: $grid-margins;
+	}
+
+	/*  Reverses order of grid for content choreography */
+	.grid-flip {
+		float: right;
+	}
+
+
+	.grid-fourth,
+	.grid-img {
+		width: 25%;
+	}
+
+	.grid-third {
+		width: 33.33333333333%;
+	}
+
+	.grid-half {
+		width: 50%;
+	}
+
+	.grid-two-thirds {
+		width: 66.666666666667%;
+	}
+
+	.grid-three-fourths {
+		width: 75%;
+	}
+
+
+	/*  Offets let you shift grid elements to the right
+	 *  but stay aligned to the grid. */
+	.offset-fourth {
+		margin-left: 25%;
+	}
+
+	.offset-third {
+		margin-left: 33.33333333333%;
+	}
+
+	.offset-half {
+		margin-left: 50%;
+	}
+
+	.offset-two-thirds {
+		margin-left: 66.666666666667%;
+	}
+
+	.offset-three-fourths {
+		margin-left: 75%;
+	}
