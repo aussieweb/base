@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<!-- Document Title & Description -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile Screen Resizing -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Icons: place in the root directory -->
+		<!-- https://github.com/audreyr/favicon-cheat-sheet -->
+
+		<!-- Feature Test -->
+		<script src="js/min/feature-test.min.js"></script>
+
+		<!-- HTML5 Shim for IE 6-8 -->
+		<!--[if lt IE 9]>
+			<script src="js/min/html5.js"></script>
+		<![endif]-->
+
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!-- stylesheets for IE 6-8 -->
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/ie.css" type="text/css">
+			<link media="print" rel="stylesheet" href="css/ie-print.css" type="text/css">
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<!-- Old Browser Warning -->
+		<!-- If you're supporting IE 6-7, remove this -->
+		<!--[if lt IE 8]>
+			<section class="container">
+				Did you know that your web browser is a bit old? Some of the content on this site might not work right as a result. <a href="http://whatbrowser.org">Upgrade your browser</a> for a faster, better, and safer web experience.
+			</section>
+		<![endif]-->
+		<br/>
+		<div class="container">
+			<nav class="nav-wrap">
+				<a class="logo" href="#">Base</a>
+				<a class="nav-toggle" data-nav-toggle="#nav-menu" href="#"><i class="icon-menu"></i> Menu</a>
+				<div class="nav-collapse" id="nav-menu">
+					<ul class="nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="js.html">About</a>
+							<div class="dropdown-menu">
+								<ul>
+									<li><a href="http://cferdinandi.github.io/kraken/">About Kraken</a></li>
+									<li><a href="http://raju.com.au">Vijay</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="css.html">CSS Components</a></li>
+						<li class="active"><a href="js.html">JS Addons</a></li>						
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+
+		<section class="container">
+			<div class="hero">
+				<h1 id="top">JS Addons</h1>
+				<p>A simple base boilerplate for rapid development based on Kraken</h1>
+			</div>
+
+			<h2>Navigation</h2>
+			<p>The above navigation uses Drop Basic with navbar plus<</p>
+
+			<hr/>
+
+<h2>Houdini</h2>
+
+<a class="collapse-toggle" data-collapse="#show-me" href="#">
+    <span class="collapse-text-show">Show +</span>
+    <span class="collapse-text-hide">Hide -</span>
+</a>
+<div class="collapse" id="show-me">
+    <p>Now you see me, now you don't.</p>
+</div>
+<hr/>
+
+<h2>Accordion</h2>
+
+<a class="collapse-toggle active" data-collapse="#section1" data-group="accordion" href="#">
+    Section 1
+    <span class="collapse-text-show">+</span>
+    <span class="collapse-text-hide">-</span>
+</a>
+<div class="collapse active" id="section1">
+    <h3>Section 1</h3>
+    <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.</p>
+</div>
+<a class="collapse-toggle" data-collapse="#section2" data-group="accordion" href="#">
+    Section 2
+    <span class="collapse-text-show">+</span>
+    <span class="collapse-text-hide">-</span>
+</a>
+<div class="collapse" id="section2">
+    <h3>Section 2</h3>
+    <p>Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz.</p>
+</div>
+<a class="collapse-toggle" data-collapse="#section3" data-group="accordion" href="#">
+    Section 3
+    <span class="collapse-text-show">+</span>
+    <span class="collapse-text-hide">-</span>
+</a>
+<div class="collapse" id="section3">
+    <h3>Section 3</h3>
+    <p>Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls.</p>
+</div>
+
+<hr/>
+
+<h2>Tabby</h2>
+
+<ul class="tabs">
+    <li class="active"><a data-tab="#tab1" href="#">Superheroes</a></li>
+    <li><a data-tab="#tab2" href="#">Ice Cream</a></li>
+    <li><a data-tab="#tab3" href="#">Seasons</a></li>
+</ul>
+
+<div class="tabs-content">
+    <div class="tabs-pane active" id="tab1">
+        Superheros
+        ...
+    </div>
+
+    <div class="tabs-pane" id="tab2">
+        Ice Cream
+        ...
+    </div>
+
+    <div class="tabs-pane" id="tab3">
+        Seasons
+        ...
+    </div>
+</div>
+
+<hr/>
+
+<h2>Modal</h2>
+
+<a data-modal="#modal" href="#" class="btn btn-primary">Modal Toggle</a>
+
+<div class="modal" data-modal-window id="modal" href="http://backup-url.com">
+    <a class="close" data-modal-close>x</a>
+    <h3>Modal</h3>
+    <p>Modal content. Always specify a functioning link as a backup for modals.<br/>
+
+Modals uses modern JavaScript API's that aren't supported by older browsers, including IE 8 and lower. On modern browsers, Modals will prevent the backup URL from redirecting people away from the current page.
+
+<a data-modal="#modal" href="http://backup-url.com">Modal Toggle</a>
+</p>
+    <button class="btn btn-primary" data-modal-close>Close</button>
+</div>
+
+<hr/>
+
+<h2>Form Saver and Xray</h2>
+			<form>
+				<div>
+					<label>Username</label>
+					<input type="text">
+				</div>
+				<div>
+			        <label>Text Input to Ignore</label>
+			        <input data-form-no-save name="input-ignore" type="text">
+			    </div>
+
+				<div>
+					<label>Password</label>
+					<input id="pw" type="password">
+				</div>
+				<div>
+					<button class="x-ray" data-x-ray="#pw" data-default="show">
+						<span class="x-ray-show" data-x-ray-show>Show Password</span>
+						<span class="x-ray-hide" data-x-ray-hide>Hide Password</span>
+					</button>
+				</div>
+
+				    <div class="form-saver">
+			        	<div data-form-status></div>
+			        	<div>
+			            	<button data-form-save>
+			                	Save Form Data
+			            	</button>
+			            	<button data-form-delete>
+			                	Delete Form Data
+			            	</button>
+			        	</div>
+    				</div>
+
+			</form>
+
+			<hr/>
+
+			<h2>Slider</h2>
+			<div class="slider" data-slider>
+			    <div class="slides">
+			        <div><iframe width="420" height="315" src="//www.youtube.com/embed/aCC6T2qBI_c" frameborder="0" allowfullscreen></iframe></div>
+			        <div>Text content could go here, too.</div>
+			        <div><img src="img/slides/1.jpg" alt="Slide"></div>
+			        <div><img src="img/slides/2.jpg" alt="Slide"></div>
+			        <div><img src="img/slides/3.jpg" alt="Slide"></div>
+			    </div>
+			    <div data-slider-nav></div>
+			    <div data-slider-count></div>
+			</div>
+			<hr/>
+
+			<h2>Right height</h2>
+			<style>
+				.hero {
+					background-color: #f7f7f7;
+					margin-bottom: 1.5625em;
+					padding: 0.9375em;
+					border: 0.0725em solid #e5e5e5;
+				}
+			</style>
+			<div class="row" data-right-height>
+				<div class="grid-third">
+					<div class="hero" data-right-height-content>
+						<h2>Content 1</h2>
+						<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.</p>
+					</div>
+				</div>
+				<div class="grid-third">
+					<div class="hero" data-right-height-content>
+						<h2>Content 2</h2>
+						<p>Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz.</p>
+					</div>
+				</div>
+				<div class="grid-third">
+					<div class="hero" data-right-height-content>
+						<h2>Content 3</h2>
+						<p>Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls.</p>
+					</div>
+				</div>
+			</div>			
+			<hr/>
+
+			<h2>Smooth scroll</h2>
+			<a data-scroll href="#top">Back to top</a>
+			<hr/>
+
+
+
+		</section>
+
+
+
+
+		<!-- Javascript -->
+		<!-- In the footer for better performance -->
+		<script src="js/min/scripts.min.js"></script>
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+		<!--
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+		-->
+	</body>
+</html>

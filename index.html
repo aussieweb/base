@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<!-- Document Title & Description -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile Screen Resizing -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Icons: place in the root directory -->
+		<!-- https://github.com/audreyr/favicon-cheat-sheet -->
+
+		<!-- Feature Test -->
+		<script src="js/min/feature-test.min.js"></script>
+
+		<!-- HTML5 Shim for IE 6-8 -->
+		<!--[if lt IE 9]>
+			<script src="js/min/html5.js"></script>
+		<![endif]-->
+
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!-- stylesheets for IE 6-8 -->
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/ie.css" type="text/css">
+			<link media="print" rel="stylesheet" href="css/ie-print.css" type="text/css">
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<!-- Old Browser Warning -->
+		<!-- If you're supporting IE 6-7, remove this -->
+		<!--[if lt IE 8]>
+			<section class="container">
+				Did you know that your web browser is a bit old? Some of the content on this site might not work right as a result. <a href="http://whatbrowser.org">Upgrade your browser</a> for a faster, better, and safer web experience.
+			</section>
+		<![endif]-->
+
+		<br/>
+		<div class="container" id="top">
+			<nav class="nav-wrap">
+				<a class="logo" href="#">Base</a>
+				<a class="nav-toggle" data-nav-toggle="#nav-menu" href="#"><i class="icon-menu"></i> Menu</a>
+				<div class="nav-collapse" id="nav-menu">
+					<ul class="nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="js.html">About</a>
+							<div class="dropdown-menu">
+								<ul>
+									<li><a href="http://cferdinandi.github.io/kraken/">About Kraken</a></li>
+									<li><a href="http://raju.com.au">Vijay</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="css.html">CSS Components</a></li>
+						<li><a href="js.html">JS Addons</a></li>						
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+
+		<section class="container">
+
+			<h1>Base</h1>
+			<div class="hero">
+				<p>A simple, mobile first, responsive base boilerplate for rapid development based on <a href="http://cferdinandi.github.io/kraken/">Kraken</a>.</p>
+			</div>
+
+			<p>It has addons for style and animations:</p>
+			<ul>
+				<li><a href="css.html">CSS Style Patterns</a></li>
+				<li><a href="js.html">JavaScript Animations</a></li>
+			</ul>	
+			<hr/>
+
+			<h2>.htaccess</h2>
+			<p>In Apache HTTP servers, .htaccess (hypertext access) is the configuration file that allows for web server configuration.</p>
+
+			<p>The <code>htaccess.txt</code> file provided includes a number of best practice server rules for making web pages fast and secure. Adapted from HTML5 Boilerplate.</p>
+
+			<p>If no .htaccess file exists, create one. If you're hosting a WordPress site, make sure that you add these snippets after any existing WordPress configurations</p>
+			<hr/>
+		</section>
+
+		<footer>
+			<div class="container"><br/>
+				<div class="text-small row">
+					<div class="grid-half">
+						<p>&copy; Client Name - <a rel="author" target="_blank" href="http://aussieweb.net.au">Aussie Web Design</a></p>
+					</div>	<!-- end 1-2 -->
+					<div class="grid-half">
+						<ul class="nav">
+							<li><a data-scroll href="#top">&#8593; Top</a></li>
+						</ul>
+					</div>	<!-- end 1-2 -->
+				</div>	<!-- end row -->
+			</div>	<!-- container -->
+		</footer>	
+
+
+
+		<!-- Javascript -->
+		<!-- In the footer for better performance -->
+		<script src="js/min/scripts.min.js"></script>
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+		<!--
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+		-->
+	</body>
+</html>
