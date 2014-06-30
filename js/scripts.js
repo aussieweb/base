@@ -39,6 +39,7 @@
 
 //@prepros-append components/prism.js
 
+//@prepros-append components/youtube.js
 
 //@prepros-append initializescripts.js
 
