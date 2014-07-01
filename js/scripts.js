@@ -33,13 +33,13 @@
 
 //@prepros-append components/right-height.js
 
+//@prepros-append components/youtube.js
+
 //@prepros-append components/fluidvids.js
 
 //@prepros-append components/slider.js
 
 //@prepros-append components/prism.js
-
-//@prepros-append components/youtube.js
 
 //@prepros-append initializescripts.js
 
