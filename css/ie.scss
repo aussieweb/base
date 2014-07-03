@@ -1,2 +1,125 @@
-@import
-	"components/grid";
+// IE styles Configuration
+
+// Colors
+$color-primary: #0088cc; 	// Primary (Blue)
+$color-black: #272727; 		// Black
+$color-white: #ffffff; 		// White
+
+$color-success: #377f31; 	// Success (Green)
+$color-danger: #880e14; 	// Danger (Red)
+$color-warning: #dba909; 	// Warning (Yellow)
+$color-code: #dd1144;		// Code (Fuscia)
+
+$color-gray-dark: #808080;  // Gray (dark)
+$color-gray-light: #e5e5e5;	// Gray (Light)
+
+
+// Font Stacks
+$font-primary: "Helvetica Neue", Arial, sans-serif; 		// Sans-Serif (default): "Helvetica Neue", Arial, sans-serif
+$font-secondary: Georgia, Times, serif;						// Serif (suggested): Georgia, Times, serif
+$font-monospace: Menlo, Monaco, "Courier New", monospace;	// Monospace: Menlo, Monaco, "Courier New", monospace
+
+
+// Breakpoints
+$bp-xsmall: 20em;
+$bp-small: 30em;
+$bp-medium: 40em;
+$bp-large: 60em;
+$bp-xlarge: 80em;
+
+
+// Typographic Scale (For math purposes. Actual font sizes in ems.)
+// 1px, 4px, 5px, 8px, 9px, 11px, 12px, 13px, 15px, 16px, 19px, 21px, 24px, 28px, 32px, 48px, 64px, 80px, 96px
+// line height: 1.5em on small screens, 1.5625em on big screens
+
+$font-base: 100%;
+$spacing: 1.5625em;
+$container-max: 80em;
+$grid-margins: 1.4%;
+
+/* =============================================================
+	THE GRID
+	Structure and layout.
+ * ============================================================= */
+
+/*  Mobile-first. Single-column layout by default
+ *  Container sets the maximum page width. Adjust as needed. */
+.container {
+	max-width: $container-max;
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*  Still mostly single-column.
+ *  Option to activate grid on small screens.
+ *  Two-column layout for .grid-img. */
+
+	.row {
+		margin-left: $grid-margins * -1;
+		margin-right: $grid-margins * -1;
+	}
+
+	.grid-fourth,
+	.grid-third,
+	.grid-half,
+	.grid-two-thirds,
+	.grid-three-fourths,
+	.grid-full,
+	.grid-img {
+		float: left;
+		width: 100%;
+		padding-left: $grid-margins;
+		padding-right: $grid-margins;
+	}
+
+	/*  Reverses order of grid for content choreography */
+	.grid-flip {
+		float: right;
+	}
+
+
+	.grid-fourth,
+	.grid-img {
+		width: 25%;
+	}
+
+	.grid-third {
+		width: 33.33333333333%;
+	}
+
+	.grid-half {
+		width: 50%;
+	}
+
+	.grid-two-thirds {
+		width: 66.666666666667%;
+	}
+
+	.grid-three-fourths {
+		width: 75%;
+	}
+
+
+	/*  Offets let you shift grid elements to the right
+	 *  but stay aligned to the grid. */
+	.offset-fourth {
+		margin-left: 25%;
+	}
+
+	.offset-third {
+		margin-left: 33.33333333333%;
+	}
+
+	.offset-half {
+		margin-left: 50%;
+	}
+
+	.offset-two-thirds {
+		margin-left: 66.666666666667%;
+	}
+
+	.offset-three-fourths {
+		margin-left: 75%;
+	}
