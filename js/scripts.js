@@ -39,7 +39,7 @@
 
 //@prepros-append components/slider.js
 
-//@prepros-append components/prism.js
+//prepros-append components/prism.js
 
 //@prepros-append initializescripts.js
 
