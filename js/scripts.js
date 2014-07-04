@@ -33,7 +33,7 @@
 
 //@prepros-append components/right-height.js
 
-//@prepros-append components/youtube.js
+//prepros-append components/youtube.js
 
 //@prepros-append components/fluidvids.js
 
