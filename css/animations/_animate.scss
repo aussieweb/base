@@ -1,0 +1,16 @@
+/* Animate.css - http://daneden.me/animate - Licensed under the MIT license - http://opensource.org/licenses/MIT - Copyright (c) 2013 Daniel Eden */
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  animation-duration: 2s;
+}
+
+.box {width: 50px; height:50px; background-color:#f7f7f7; border: 1px solid #e5e5e5; margin-bottom: 1em;}

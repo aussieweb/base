@@ -2,13 +2,14 @@
 
 	Theme Name: Name of client
 	Theme URI: http://aussieweb.github.io/base
-	Description: Built using the mobile first, responsive and lightweight boilerplate.
+	Description: Built using Kraken - the mobile first, responsive and lightweight boilerplate.
 	Version: 1.0
 	Author: Vijay Rudraraju
 	Author URI: http://aussieweb.net.au
 
 	Thanks to Chris Ferdinandi for the awesome Kraken boilerplate. MIT License. http://gomakethings.com/mit/
-
+	Thanks to Daniel Eden for Animate.css - http://daneden.me/animate - Licensed under the MIT license - http://opensource.org/licenses/MIT - Copyright (c) 2013 Daniel Eden
+	Thanks to http://icomoon.io/app/ for awesome icon fonts
 */
 
 // Configuration
@@ -81,9 +82,10 @@ $grid-margins: 1.4%;
 	"components/alerts",		
 	"components/labels",		
 	"components/progress-bars",	
-	"components/prism",		
+	"components/prism",
 	"../fonts/icons", // add your icon styles here
-
+	"animations/animate",
+	"animations/attention_seekers/wobble", // add the specific animation effect you need
 
 	"components/overrides";
 

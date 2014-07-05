@@ -1,15 +1,15 @@
-/* =============================================================
+/*@preserve
 
 	Theme Name: Name of client
 	Theme URI: http://aussieweb.github.io/base
-	Description: Built using the mobile first, responsive and lightweight boilerplate.
+	Description: Built using Kraken - the mobile first, responsive and lightweight boilerplate.
 	Version: 1.0
 	Author: Vijay Rudraraju
 	Author URI: http://aussieweb.net.au
 
-	Thanks to Chris Ferdinandi for the awesome Kraken boilerplate and its addons. MIT License. http://gomakethings.com/mit/
+	Thanks to Chris Ferdinandi for the awesome Kraken boilerplate. MIT License. http://gomakethings.com/mit/
 
- * ============================================================= */
+*/
 
 /* Simply remove the @ symbol for addons that you don't  need */
 
