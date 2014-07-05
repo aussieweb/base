@@ -54,39 +54,39 @@ $grid-margins: 1.4%;
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300);
 
 @import
-	"components/mixins",
-	"components/reset",
-	"components/grid",
-	"components/typography",
-	"components/code",
-	"components/buttons",
-	"components/forms",
-	"components/icons",
+	"css/components/mixins",
+	"css/components/reset",
+	"css/components/grid",
+	"css/components/typography",
+	"css/components/code",
+	"css/components/buttons",
+	"css/components/forms",
+	"css/components/icons",
 
 // javascript addons
-	"components/astro-navbar-plus",
-	"components/drop-basic",
-	// "components/drop-jumbo",
-	"components/houdini",
-	"components/tabby",
-	"components/modals",
-	"components/x-ray",
-	"components/slider",
+	"css/components/astro-navbar-plus",
+	"css/components/drop-basic",
+	// "css/components/drop-jumbo",
+	"css/components/houdini",
+	"css/components/tabby",
+	"css/components/modals",
+	"css/components/x-ray",
+	"css/components/slider",
 
 // css components
-	"components/hero",	
-	"components/backgrounds",	
-	"components/snapshot",	
-	"components/tables",	
-	"components/social-sharing",
-	"components/alerts",		
-	"components/labels",		
-	"components/progress-bars",	
-	"components/prism",
-	"../fonts/icons", // add your icon styles here
-	"animations/animate",
-	"animations/attention_seekers/wobble", // add the specific animation effect you need
+	"css/components/hero",	
+	"css/components/backgrounds",	
+	"css/components/snapshot",	
+	"css/components/tables",	
+	"css/components/social-sharing",
+	"css/components/alerts",		
+	"css/components/labels",		
+	"css/components/progress-bars",	
+	"css/components/prism",
+	"fonts/icons", // add your icon styles here
+	"css/animations/animate",
+	"css/animations/attention_seekers/wobble", // add the specific animation effect you need
 
-	"components/overrides";
+	"css/components/overrides";
 
-@media print { @import "components/print"; }
+@media print { @import "css/components/print"; }
