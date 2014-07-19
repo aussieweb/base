@@ -24,9 +24,10 @@ $color-gray-dark: #808080;  // Gray (dark)
 $color-gray-light: #e5e5e5;	// Gray (Light)
 
 // Font Stacks
-$font-primary: "gandhi_sans", "Helvetica Neue", Arial, sans-serif; 		// Sans-Serif (default): "Helvetica Neue", Arial, sans-serif
-$font-secondary: Georgia, Times, serif;						// Serif (suggested): Georgia, Times, serif
-$font-monospace: Menlo, Monaco, "Courier New", monospace;	// Monospace: Menlo, Monaco, "Courier New", monospace
+$font-primary: "Helvetica Neue", Arial, sans-serif; 		
+$font-secondary: "webfont", Georgia, Times, serif;
+$font-monospace: Menlo, Monaco, "Courier New", monospace;
+$font-headings: $font-secondary;
 
 // Breakpoints
 $bp-xsmall: 20em;
@@ -77,7 +78,7 @@ $grid-margins: 1.4%;
 	"css/components/progress-bars",	
 	"css/components/prism",
 	"fonts/icons", // add your icon font styles here (downloaded from icomoon)
-	"fonts/gandhi-sans/style", // webfont from FontSquirrel http://www.fontsquirrel.com/fonts/gandhi-sans
+	"fonts/webfont/style", // webfont from FontSquirrel http://www.fontsquirrel.com/fonts/gandhi-sans
 	// webfont loaded as per http://www.lynda.com/WordPress-tutorials/Adding-your-custom-font-content/169880/182367-4.html	
 	"css/animations/animate",
 	"css/animations/attention_seekers/wobble", // add the specific animation effect you need

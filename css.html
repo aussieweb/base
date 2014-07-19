@@ -103,13 +103,24 @@
 				<div class="grid-full"><div class="hero hero-condensed">.grid-full</div></div>
 			</div>
 
-			<h2>Google Fonts</h2>
-			<p>Grab your fonts from Google fonts. In <code>style.scss</code> simply update the rule <pre><code class="language-css"> @import url(http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300); </code></pre></p>
-			<hr>
+			<h2>Webfonts</h2>
+			<p>You can @import google fonts or download webfonts from Font Squirrel. Set the font stacks via the <code>style.less file</code> as shown below:</p>
+<pre><code class="language-css">// Font Stacks
+$font-primary: "Helvetica Neue", Arial, sans-serif; 		
+$font-secondary: "webfont", Georgia, Times, serif;
+$font-monospace: Menlo, Monaco, "Courier New", monospace;
+$font-headings: $font-secondary; // apply secondary font as the headings font</code></pre>
 
-			<h2>Web fonts via Font Squirrel</h2>
+			<h3>Google Fonts</h3>
+			<p>Grab your fonts from Google fonts. In <code>style.scss</code> simply update the rule <pre><code class="language-css"> @import url(http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300); </code></pre></p>
+			<h3>Web fonts via Font Squirrel</h3>
 			<p>Go to font squirrel, find a suitable font, for example <a href="http://www.fontsquirrel.com/fonts/open-sans" target="_blank">http://www.fontsquirrel.com/fonts/open-sans</a>. Click on the <strong>Webfont Kit</strong> tab, ensure that you can download the <strong>kit</strong> as illustrated below. Load the webfont as per <a href="http://www.lynda.com/WordPress-tutorials/Adding-your-custom-font-content/169880/182367-4.html" target="_blank">this tutorial on lynda.com</a>.</p>
 			<img src="img/font-squirrel.png" alt="" width="450px">
+			<p>Simply rename the font files as shown below and place into he <code>fonts/webfonts</code> folder.</p>
+<pre><code class="language-markup">Regular-webfont.eot, Regular-webfont.woff, Regular-webfont.ttf, Regular-webfont.svg
+Italic-webfont.eot, Italic-webfont.woff, Italic-webfont.ttf, Italic-webfont.svg
+Bold-webfont.eot, Bold-webfont.woff, Bold-webfont.ttf, Bold-webfont.svg
+BoldItalic-webfont.eot, BoldItalic-webfont.woff, BoldItalic-webfont.ttf, BoldItalic-webfont.svg</code></pre>
 			<hr/>
 
 			<h2>Icon Fonts</h2>
