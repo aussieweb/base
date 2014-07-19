@@ -138,11 +138,13 @@ h1,
 .h1 {
 	font-size: calc-em(24px);
 	padding-top: .5em;
+	font-family: $font-light, $font-headings;
 }
 
 h2,
 .h2 {
 	font-size: calc-em(21px);
+	font-family: $font-light, $font-headings;
 }
 
 h3,

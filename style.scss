@@ -10,6 +10,7 @@
 	Thanks to Chris Ferdinandi for the awesome Kraken boilerplate. MIT License. http://gomakethings.com/mit/
 	Thanks to Daniel Eden for Animate.css - http://daneden.me/animate - Licensed under the MIT license - http://opensource.org/licenses/MIT - Copyright (c) 2013 Daniel Eden
 	Thanks to http://icomoon.io/app/ for awesome icon fonts
+	Thanks to Font Squirrel for awesome fonts
 */
 
 // Colors
@@ -25,7 +26,8 @@ $color-gray-light: #e5e5e5;	// Gray (Light)
 
 // Font Stacks
 $font-primary: "Helvetica Neue", Arial, sans-serif; 		
-$font-secondary: "webfont", Georgia, Times, serif;
+$font-secondary: "webfont", "Helvetica Neue", Arial, sans-serif; // was Georgia, Times, serif;
+$font-light: "webfontlight";
 $font-monospace: Menlo, Monaco, "Courier New", monospace;
 $font-headings: $font-secondary;
 

@@ -11,6 +11,7 @@
 	Thanks to Chris Ferdinandi for the awesome Kraken boilerplate. MIT License. http://gomakethings.com/mit/
 	Thanks to Daniel Eden for Animate.css - http://daneden.me/animate - Licensed under the MIT license - http://opensource.org/licenses/MIT - Copyright (c) 2013 Daniel Eden
 	Thanks to http://icomoon.io/app/ for awesome icon fonts
+	Thanks to Font Squirrel for awesome fonts
 */
 /* =============================================================
 	CSS RESET
@@ -395,18 +396,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
   padding-top: 1em;
   word-wrap: break-word;
-  font-family: "webfont", Georgia, Times, serif;
+  font-family: "webfont", "Helvetica Neue", Arial, sans-serif;
 }
 
 h1,
 .h1 {
   font-size: 1.5em;
   padding-top: .5em;
+  font-family: "webfontlight", "webfont", "Helvetica Neue", Arial, sans-serif;
 }
 
 h2,
 .h2 {
   font-size: 1.3125em;
+  font-family: "webfontlight", "webfont", "Helvetica Neue", Arial, sans-serif;
 }
 
 h3,
@@ -2285,33 +2288,42 @@ pre.line-numbers > code {
   content: "\e694";
 }
 
+/* Loading the 4 starnard styles: regular, italic, bold and bold-italic versions as well additional Light styles for Open Sans*/
 @font-face {
   font-family: "webfont";
   src: url("fonts/webfont/Regular-webfont.eot");
-  src: url("fonts/webfont/Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/Regular-webfont.woff") format("woff"), url("fonts/webfont/Regular-webfont.ttf") format("truetype"), url("fonts/webfont/Regular-webfont.svg#gandhi_sansregular") format("svg");
+  src: url("fonts/webfont/Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/Regular-webfont.woff") format("woff"), url("fonts/webfont/Regular-webfont.ttf") format("truetype"), url("fonts/webfont/Regular-webfont.svg#webfont") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "webfont";
   src: url("fonts/webfont/Italic-webfont.eot");
-  src: url("fonts/webfont/Italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/Italic-webfont.woff") format("woff"), url("fonts/webfont/Italic-webfont.ttf") format("truetype"), url("fonts/webfont/Italic-webfont.svg#gandhi_sansitalic") format("svg");
+  src: url("fonts/webfont/Italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/Italic-webfont.woff") format("woff"), url("fonts/webfont/Italic-webfont.ttf") format("truetype"), url("fonts/webfont/Italic-webfont.svg#webfont") format("svg");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "webfont";
   src: url("fonts/webfont/Bold-webfont.eot");
-  src: url("fonts/webfont/Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/Bold-webfont.woff") format("woff"), url("fonts/webfont/Bold-webfont.ttf") format("truetype"), url("fonts/webfont/Bold-webfont.svg#gandhi_sansbold") format("svg");
+  src: url("fonts/webfont/Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/Bold-webfont.woff") format("woff"), url("fonts/webfont/Bold-webfont.ttf") format("truetype"), url("fonts/webfont/Bold-webfont.svg#webfont") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "webfont";
   src: url("fonts/webfont/BoldItalic-webfont.eot");
-  src: url("fonts/webfont/BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/BoldItalic-webfont.woff") format("woff"), url("fonts/webfont/BoldItalic-webfont.ttf") format("truetype"), url("fonts/webfont/BoldItalic-webfont.svg#gandhi_sansbold_italic") format("svg");
+  src: url("fonts/webfont/BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/BoldItalic-webfont.woff") format("woff"), url("fonts/webfont/BoldItalic-webfont.ttf") format("truetype"), url("fonts/webfont/BoldItalic-webfont.svg#webfont") format("svg");
   font-weight: bold;
   font-style: italic;
+}
+/* Extra styles */
+@font-face {
+  font-family: "webfontlight";
+  src: url("fonts/webfont/Light-webfont.eot");
+  src: url("fonts/webfont/Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/webfont/Light-webfont.woff") format("woff"), url("fonts/webfont/Light-webfont.ttf") format("truetype"), url("fonts/webfont/Light-webfont.svg#webfontlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 /* Animate.css - http://daneden.me/animate - Licensed under the MIT license - http://opensource.org/licenses/MIT - Copyright (c) 2013 Daniel Eden */
 .animated {
