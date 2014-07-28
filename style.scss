@@ -1,11 +1,13 @@
 /*!
 
-	Theme Name: Name of client
+	Theme Name: Base
 	Theme URI: http://aussieweb.github.io/base
 	Description: Built using Kraken - the mobile first, responsive and lightweight boilerplate.
 	Version: 1.0
 	Author: Vijay Rudraraju
 	Author URI: http://aussieweb.net.au
+	License: MIT
+	License URI: http://gomakethings.com/mit/
 
 	Thanks to Chris Ferdinandi for the awesome Kraken boilerplate. MIT License. http://gomakethings.com/mit/
 	Thanks to Daniel Eden for Animate.css - http://daneden.me/animate - Licensed under the MIT license - http://opensource.org/licenses/MIT - Copyright (c) 2013 Daniel Eden
@@ -84,8 +86,9 @@ $grid-margins: 1.4%;
 	// webfont loaded as per http://www.lynda.com/WordPress-tutorials/Adding-your-custom-font-content/169880/182367-4.html	
 	"css/animations/animate",
 	"css/animations/attention_seekers/wobble", // add the specific animation effect you need
+	"css/components/overrides",
 
-	"css/components/overrides"; // Override default alignment, spacing and visibilty.
+	"css/components/wordpress-images"; // wordpress image styles.
 
 
 @media print { @import "css/components/print"; }
